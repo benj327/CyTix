@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jacob/Desktop/Coms309/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_admin.xml" value="0.268" />
+        <entry key="..\:/Users/jacob/Desktop/Coms309/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_assign_checkers.xml" value="0.2546875" />
+        <entry key="..\:/Users/jacob/Desktop/Coms309/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_checker.xml" value="0.2546875" />
+        <entry key="..\:/Users/jacob/Desktop/Coms309/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_create_account.xml" value="0.2" />
+        <entry key="..\:/Users/jacob/Desktop/Coms309/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_create_event.xml" value="0.2546875" />
+        <entry key="..\:/Users/jacob/Desktop/Coms309/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/jacob/Desktop/Coms309/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_login.xml" value="0.2546875" />
+        <entry key="..\:/Users/jacob/Desktop/Coms309/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_main.xml" value="0.268" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.124" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/drawable/custom_input.xml" value="0.22" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/drawable/custom_lock.xml" value="0.22" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/drawable/custom_person.xml" value="0.22" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/drawable/ic_baseline.xml" value="0.22" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/drawable/ic_baseline_person.xml" value="0.22" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/drawable/ic_lock_focused.xml" value="0.22" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/drawable/ic_person_focused.xml" value="0.22" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_buy_ticket.xml" value="0.264" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_checker.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_checker_message.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_create_account.xml" value="0.25" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_create_event.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_error.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_event_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_verified_tickets.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/layout/activity_view_event.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/layout/checker_rows.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/piein/1_cw_2/Demo3/1_cw_2/Frontend/CyTix/app/src/main/res/layout/ticket_rows.xml" value="0.11302083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../../../.." />
+    <option name="OTHER_OPTIONS" value="-encoding utf8 -docencoding utf8 -charset utf8" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

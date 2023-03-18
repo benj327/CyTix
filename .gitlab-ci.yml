@@ -1,0 +1,73 @@
+# Example  .gitlab-ci.yml file
+stages:
+  - maventry
+  - maventest
+  - androidbuild
+  - androidtest
+  - mavenDeploy
+
+maven-build:   #this is a JOB
+  stage: maventry
+  tags:
+    - -springboot_tag  					# this is LINK to the shell runner on the remote-server 
+  before_script:
+    - export JAVA_HOME="/"
+  script:
+    - cd Backend/cytix					#change directory to where you have your springboot application
+    - mvn package
+
+maven-test:
+  stage: maventest
+  tags:
+    - -springboot_tag
+  before_script:
+    - export JAVA_HOME="/"
+  script:
+    - cd Backend/cytix
+    - mvn test
+  artifacts:
+    paths:
+      - Backend/target/*.jar
+
+android-build:
+  image: gjandres/android-ci:latest
+  stage: androidbuild
+  before_script:
+    - export GRADLE_USER_HOME=`pwd`/.gradle
+    - chmod +x ./Frontend/CyTix/gradlew
+  tags:
+   - -android_tag
+  script:
+    - cd Frontend/CyTix
+    - ./gradlew build
+  artifacts:
+    paths:
+    - Android_test/app/build/outputs/
+
+android-test:
+  image: gjandres/android-ci:latest
+  stage: androidtest
+  before_script:
+    - export GRADLE_USER_HOME=`pwd`/.gradle
+    - chmod +x ./Frontend/CyTix/gradlew
+  tags:
+   - -android_tag
+  script:
+    - cd Frontend/CyTix
+    - ./gradlew test
+
+# Below job builds, deploys, executes jar as service.
+autoDeploy:
+  stage: mavenDeploy  #do make a stage with same name!
+  tags:
+   - -springboot_tag
+  before_script:
+    - export JAVA_HOME="/"
+  script:
+    - cd Backend/cytix
+    - mvn package
+    - sudo mv target/*.jar /target/web-demo.jar 
+    - sudo systemctl stop system-web-demo
+    - sudo systemctl start system-web-demo
+
+

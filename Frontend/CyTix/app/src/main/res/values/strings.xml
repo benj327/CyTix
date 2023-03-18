@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CyTix</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create account</string>
+    <string name="email_address">Email Address</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_date">Event Date</string>
+    <string name="event_location">Event Location</string>
+    <string name="create_event">Create Event</string>
+    <string name="userTicket">Show Ticket</string>
+    <string name="userEvent">Show Event</string>
+    <string name="byTicket">Buy Ticket</string>
+    <string name="no_image">Error</string>
+    <string name="Userchat">Chat</string>
+    <string name="connect">Connect</string>
+    <string name="send_message">Send message</string>
+    <string name="message">Message</string>
+</resources>
